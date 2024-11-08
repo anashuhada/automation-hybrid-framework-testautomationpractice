@@ -1,0 +1,67 @@
+16:37:35.409 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+16:38:54.083 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+16:38:54.161 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+16:39:44.444 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+16:39:44.543 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+16:40:48.383 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+16:40:48.462 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+16:42:00.963 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+16:42:01.039 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+21:31:13.619 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+21:31:13.699 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+21:32:03.468 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+21:32:03.551 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+21:41:20.606 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+21:41:20.688 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+21:55:49.683 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+21:55:49.762 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+21:56:49.464 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+21:56:49.545 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+21:57:44.079 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+21:57:44.160 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+21:58:13.013 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+21:58:13.093 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+21:59:13.377 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+21:59:13.457 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+22:03:42.320 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+22:03:42.396 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+22:24:57.434 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+22:24:57.515 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+22:29:04.292 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+22:29:04.372 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
+22:29:30.115 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
+22:29:30.195 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+
