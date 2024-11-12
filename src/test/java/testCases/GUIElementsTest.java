@@ -45,7 +45,9 @@ public class GUIElementsTest extends BaseClass  {
         gui.setGender();
         gui.setDays();
         gui.setSelectCountry();
-        gui.setSelectColor();
+        gui.unsortedList();
+        gui.sortedList();
+        gui.duplicateItems();
         gui.setDatePicker1("11", "March", "2024");
         gui.setDatePicker2("11", "Mar", "2025");
 

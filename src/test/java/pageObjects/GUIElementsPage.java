@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
-import java.util.List;
+import java.util.*;
 
 public class GUIElementsPage extends BasePage {
 
@@ -41,8 +41,11 @@ public class GUIElementsPage extends BasePage {
     @FindBy(xpath = "//select[@id='country']")
     WebElement selectCountry;
 
-    @FindBy(xpath = "//select[@id='colors']//option")
-    List<WebElement> selectColor;
+    @FindBy(xpath = "//select[@id='colors']")
+    WebElement selectColor;
+
+    @FindBy(xpath = "//select[@id='animals']")
+    WebElement selectAnimal;
 
     @FindBy(xpath = "//input[@id='datepicker']")
     WebElement inputDate1;
@@ -165,16 +168,78 @@ public class GUIElementsPage extends BasePage {
         }
     }
 
-    public void setSelectColor() {
-        // System.out.println(selectColor.size());
-        for(int color = 0; color < selectColor.size(); color++) {
-            System.out.println(selectColor.get(color).getText());
-            String option = selectColor.get(color).getText();
-            if(option.equals("Green")) {
-                selectColor.get(color).click();
-                break;
+    public void unsortedList() {
+        ArrayList listOriginal = new ArrayList<>();
+        ArrayList listTemporary = new ArrayList<>();
+
+        Select selAnimal = new Select(selectColor);
+        List<WebElement> options = selAnimal.getOptions();
+        for(WebElement op : options) {
+            listOriginal.add(op.getText());
+            listTemporary.add(op.getText());
+        }
+        System.out.println("Before sorting...");
+        System.out.println("Original list: " + listOriginal);
+        System.out.println("Temporary list: " + listTemporary);
+
+        Collections.sort(listTemporary); // sorting the temp list
+
+        System.out.println("After sorting...");
+        System.out.println("Original list: " + listOriginal);
+        System.out.println("Temporary list: " + listTemporary);
+
+        // compare
+        if(listOriginal.equals(listTemporary)) {
+            System.out.println("List box is sorted.");
+        } else {
+            System.out.println("List box is not sorted.");
+        }
+    }
+
+    public void sortedList() {
+        ArrayList listOriginal = new ArrayList<>();
+        ArrayList listTemporary = new ArrayList<>();
+
+        Select selAnimal = new Select(selectAnimal);
+        List<WebElement> options = selAnimal.getOptions();
+        for(WebElement op : options) {
+            listOriginal.add(op.getText());
+            listTemporary.add(op.getText());
+        }
+        System.out.println("Before sorting...");
+        System.out.println("Original list: " + listOriginal);
+        System.out.println("Temporary list: " + listTemporary);
+
+        Collections.sort(listTemporary); // sorting the temp list
+
+        System.out.println("After sorting...");
+        System.out.println("Original list: " + listOriginal);
+        System.out.println("Temporary list: " + listTemporary);
+
+        // compare
+        if(listOriginal.equals(listTemporary)) {
+            System.out.println("List box is sorted.");
+        } else {
+            System.out.println("List box is not sorted.");
+        }
+    }
+
+    public void duplicateItems() {
+        Select list = new Select(selectColor);
+        Set<String> uniqueOptions = new HashSet<String>(); // avoid duplicates
+        boolean flag = false;
+
+        for(WebElement option : list.getOptions()) {
+            String textOption = option.getText();
+            if(!uniqueOptions.add(textOption)) {
+                System.out.println("Duplicate option found: " + textOption);
+                flag = true;
             }
-       }
+        }
+
+        if(!flag) {
+            System.out.println("No duplicates found in the list box.");
+        }
     }
 
     public void setDatePicker1(String date, String month, String year) throws InterruptedException {
