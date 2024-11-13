@@ -32,7 +32,7 @@ public class BaseClass {
     public Logger logger;
     public Properties prop;
 
-    @BeforeClass
+    @BeforeClass(groups = "Master")
     @Parameters({"os", "browser"})
     public void setup(@Optional("mac") String os, @Optional("chrome") String br) throws IOException {
         // apache log4j
@@ -98,8 +98,8 @@ public class BaseClass {
     @AfterClass
     public void tearDown() throws InterruptedException {
         System.out.println("Web app closed.");
-//        Thread.sleep(5000);
-//        driver.quit();
+//        Thread.sleep(3000);
+        driver.quit();
     }
 
     public String randomString() {
@@ -138,5 +138,4 @@ public class BaseClass {
         sourceFile.renameTo(targetFile);
         return targetFilePath;
     }
-
 }

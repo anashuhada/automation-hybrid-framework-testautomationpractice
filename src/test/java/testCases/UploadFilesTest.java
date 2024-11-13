@@ -7,12 +7,12 @@ import testBase.BaseClass;
 
 public class UploadFilesTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyUploadFiles() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyUploadFiles started.");
         UploadFilesPage uf = new UploadFilesPage(driver);
-
         String header = uf.getTextHeader();
         // System.out.println(header);
         softAssert.assertEquals(header, "Upload Files", "Mismatched.");
@@ -21,5 +21,6 @@ public class UploadFilesTest extends BaseClass {
         uf.multipleFile();
 
         softAssert.assertAll();
+        logger.info("verifyUploadFiles finished.");
     }
 }

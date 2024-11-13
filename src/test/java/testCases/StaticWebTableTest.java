@@ -7,10 +7,11 @@ import testBase.BaseClass;
 
 public class StaticWebTableTest extends BaseClass  {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyStaticWebTable() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyStaticWebTable started.");
         StaticWebTablePage swt = new StaticWebTablePage(driver);
         String header = swt.getTextHeader();
         // System.out.println(header);
@@ -19,5 +20,6 @@ public class StaticWebTableTest extends BaseClass  {
         swt.staticWebTable();
 
         softAssert.assertAll();
+        logger.info("verifyStaticWebTable finished.");
     }
 }

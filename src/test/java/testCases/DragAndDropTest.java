@@ -7,12 +7,12 @@ import testBase.BaseClass;
 
 public class DragAndDropTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyDragAndDrop() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyDragAndDrop started.");
         DragAndDropPage dd = new DragAndDropPage(driver);
-
         String header = dd.getTextHeader();
         // System.out.println(header);
         softAssert.assertEquals(header, "Drag and Drop", "Incorrect.");
@@ -20,5 +20,6 @@ public class DragAndDropTest extends BaseClass {
         dd.dragAndDrop();
 
         softAssert.assertAll();
+        logger.info("verifyDragAndDrop finished.");
     }
 }

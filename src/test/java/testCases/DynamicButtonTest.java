@@ -7,10 +7,11 @@ import testBase.BaseClass;
 
 public class DynamicButtonTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyDynamicButton() throws InterruptedException {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyDynamicButton started.");
         DynamicButtonPage db = new DynamicButtonPage(driver);
         boolean header = db.getTextHeader();
         // System.out.println(header);
@@ -23,5 +24,6 @@ public class DynamicButtonTest extends BaseClass {
         db.clickButtonStart();
 
         softAssert.assertAll();
+        logger.info("verifyDynamicButton finished.");
     }
 }

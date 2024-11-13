@@ -1,16 +1,37 @@
-21:43:41.310 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
-21:43:41.398 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+16:13:19.352 [main] INFO  testCases.ScrollingDropDownTest - verifyScrollingDropDown started.
+16:13:22.409 [main] INFO  testCases.ScrollingDropDownTest - verifyScrollingDropDown finished.
+16:14:21.746 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:14:21.832 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
 
-21:48:24.180 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
-21:48:24.255 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+16:14:26.426 [main] INFO  testCases.ShadowDOMTest - verifyShadowDOM started.
+16:15:34.120 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:15:34.200 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
 
-22:02:00.347 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
-22:02:00.429 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+16:16:06.236 [main] INFO  testCases.SliderTest - verifySlider started.
+16:16:07.116 [main] INFO  testCases.SliderTest - verifySlider finished.
+16:16:34.596 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:16:34.679 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
 
-22:02:45.073 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml"
-22:02:45.154 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  /Users/anashuhada/Library/Caches/JetBrains/IdeaIC2024.2/temp-testng-customsuite.xml
+16:16:39.645 [main] INFO  testCases.StaticWebTableTest - verifyStaticWebTable started.
+16:16:39.873 [main] INFO  testCases.StaticWebTableTest - verifyStaticWebTable finished.
+16:16:56.523 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:16:56.602 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
 
+16:17:01.106 [main] INFO  testCases.TabsTest - verifyTabs started.
+16:17:01.909 [main] INFO  testCases.TabsTest - verifyTabs finished.
+16:17:16.697 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:17:16.776 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:17:21.101 [main] INFO  testCases.UploadFilesTest - verifyUploadFiles started.
+16:17:21.332 [main] INFO  testCases.UploadFilesTest - verifyUploadFiles finished.
+16:17:36.603 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:17:36.686 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:17:41.001 [main] INFO  testCases.VisitorsTest - verifyVisitors finished.
+16:17:41.060 [main] INFO  testCases.VisitorsTest - verifyVisitors finished.

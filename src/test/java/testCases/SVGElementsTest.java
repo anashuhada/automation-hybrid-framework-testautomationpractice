@@ -7,12 +7,12 @@ import testBase.BaseClass;
 
 public class SVGElementsTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifySVGElements() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifySVGElements started.");
         SVGElementsPage se = new SVGElementsPage(driver);
-
         String header = se.getTextHeader();
         // System.out.println(header);
         softAssert.assertEquals(header, "SVG Elements" , "Mismatched.");
@@ -20,5 +20,6 @@ public class SVGElementsTest extends BaseClass {
         se.svg();
 
         softAssert.assertAll();
+        logger.info("verifySVGElements finished.");
     }
 }

@@ -7,14 +7,14 @@ import testBase.BaseClass;
 
 public class DynamicWebTableTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyDynamicWebTable() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyDynamicWebTable started.");
         DynamicWebTablePage dwt = new DynamicWebTablePage(driver);
-
         String header = dwt.getTextHeader();
-        System.out.println(header);
+        // System.out.println(header);
         if(header.equals("Dynamic Web Table")) {
             softAssert.assertTrue(true);
         } else {
@@ -27,5 +27,6 @@ public class DynamicWebTableTest extends BaseClass {
         dwt.getFirefoxDisk();
 
         softAssert.assertAll();
+        logger.info("verifyDynamicWebTable finished.");
     }
 }

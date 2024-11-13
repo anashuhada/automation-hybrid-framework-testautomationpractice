@@ -8,12 +8,12 @@ import testBase.BaseClass;
 
 public class GUIElementsTest extends BaseClass  {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyGUIElements() throws InterruptedException {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyGUIElements started.");
         GUIElementsPage gui = new GUIElementsPage(driver);
-
         String h1 = gui.getFirstHeading();
         // System.out.println(h1);
         if(h1.contains("Automation Testing Practice")) {
@@ -48,9 +48,11 @@ public class GUIElementsTest extends BaseClass  {
         gui.unsortedList();
         gui.sortedList();
         gui.duplicateItems();
+        gui.selectMultipleOption();
         gui.setDatePicker1("11", "March", "2024");
         gui.setDatePicker2("11", "Mar", "2025");
 
         softAssert.assertAll();
+        logger.info("verifyGUIElements finished.");
     }
 }

@@ -1,0 +1,69 @@
+16:03:04.042 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:03:04.120 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:03:10.335 [main] INFO  testCases.AlertsAndPopupsTest - verifyAlertsAndPopups started.
+16:03:37.038 [main] INFO  testCases.AlertsAndPopupsTest - verifyAlertsAndPopups finished.
+16:04:10.822 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:04:10.903 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:04:19.589 [main] INFO  testCases.DoubleClickTest - verifyDoubleClick started.
+16:04:19.867 [main] INFO  testCases.DoubleClickTest - verifyDoubleClick finished.
+16:07:24.821 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:07:24.899 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:07:30.818 [main] INFO  testCases.DragAndDropTest - verifyDragAndDrop started.
+16:07:31.080 [main] INFO  testCases.DragAndDropTest - verifyDragAndDrop finished.
+16:07:46.887 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:07:46.964 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:07:52.751 [main] INFO  testCases.DynamicButtonTest - verifyDynamicButton started.
+16:07:52.834 [main] INFO  testCases.DynamicButtonTest - verifyDynamicButton finished.
+16:08:11.020 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:08:11.102 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:08:16.519 [main] INFO  testCases.DynamicWebTableTest - verifyDynamicWebTable started.
+16:08:16.959 [main] INFO  testCases.DynamicWebTableTest - verifyDynamicWebTable finished.
+16:08:26.939 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:08:27.021 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:08:30.939 [main] INFO  testCases.GUIElementsTest - verifyGUIElements started.
+16:08:57.643 [main] INFO  testCases.GUIElementsTest - verifyGUIElements finished.
+16:09:13.947 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:09:14.026 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:09:18.670 [main] INFO  testCases.HiddenElementsAndAJAXTest - verifyHiddenElementsAndAJAX started.
+16:09:31.538 [main] INFO  testCases.HiddenElementsAndAJAXTest - verifyHiddenElementsAndAJAX finished.
+16:09:47.101 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:09:47.179 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:09:51.618 [main] INFO  testCases.HoverMouseTest - verifyHoverMouse started.
+16:09:56.033 [main] INFO  testCases.HoverMouseTest - verifyHoverMouse finished.
+16:10:15.946 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:10:16.025 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:10:20.238 [main] INFO  testCases.LabelsAndLinksTest - verifyLabelsAndLinks started.
+16:12:18.947 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:12:19.027 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:12:23.553 [main] INFO  testCases.PaginationWebTableTest - verifyPaginationWebTable started.
+16:12:38.671 [main] INFO  testCases.PaginationWebTableTest - verifyPaginationWebTable finished.
+16:12:55.680 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:12:55.758 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+
+16:13:00.271 [main] INFO  testCases.SVGElementsTest - verifySVGElements started.
+16:13:00.341 [main] INFO  testCases.SVGElementsTest - verifySVGElements finished.
+16:13:14.851 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml"
+16:13:14.929 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/anashuhada/IdeaProjects/TestAutomationPractice/testng.xml
+

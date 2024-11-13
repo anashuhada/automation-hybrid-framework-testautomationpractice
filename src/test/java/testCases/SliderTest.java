@@ -7,10 +7,11 @@ import testBase.BaseClass;
 
 public class SliderTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifySlider() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifySlider started.");
         SliderPage s = new SliderPage(driver);
         String header = s.getTextHeader();
         // System.out.println(header);
@@ -18,5 +19,6 @@ public class SliderTest extends BaseClass {
         s.slider();
 
         softAssert.assertAll();
+        logger.info("verifySlider finished.");
     }
 }

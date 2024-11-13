@@ -7,12 +7,12 @@ import testBase.BaseClass;
 
 public class ShadowDOMTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyShadowDOM() throws InterruptedException {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyShadowDOM started.");
         ShadowDOMPage sdom = new ShadowDOMPage(driver);
-
         String header = sdom.getTextHeader();
         // System.out.println(header);
         softAssert.assertEquals(header, "ShadowDOM", "Incorrect");
@@ -25,5 +25,6 @@ public class ShadowDOMTest extends BaseClass {
         sdom.shadowUploadFile("/Volumes/KINGSTON/Software Testing/Automation Testing/txt_file1");
 
         softAssert.assertAll();
+        logger.info("verifyShadowDOM finished.");
     }
 }

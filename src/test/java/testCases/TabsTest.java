@@ -7,13 +7,14 @@ import testBase.BaseClass;
 
 public class TabsTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyTabs() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyTabs started.");
         TabsPage t = new TabsPage(driver);
         String header = t.getTextHeader();
-        System.out.println(header);
+        // System.out.println(header);
         softAssert.assertEquals(header, "Tabs", "Incorrect.");
 
         boolean logo = t.getLogoStatus();
@@ -26,5 +27,6 @@ public class TabsTest extends BaseClass {
         t.setTextInputBox("Selenium");
 
         softAssert.assertAll();
+        logger.info("verifyTabs finished.");
     }
 }

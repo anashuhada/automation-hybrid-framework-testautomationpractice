@@ -7,10 +7,11 @@ import testBase.BaseClass;
 
 public class DoubleClickTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyDoubleClick() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyDoubleClick started.");
         DoubleClickPage dc = new DoubleClickPage(driver);
         String header = dc.getTextHeader();
         // System.out.println(header);
@@ -19,5 +20,6 @@ public class DoubleClickTest extends BaseClass {
         dc.clickButtonCopyText("Automation Hybrid Framework");
 
         softAssert.assertAll();
+        logger.info("verifyDoubleClick finished.");
     }
 }

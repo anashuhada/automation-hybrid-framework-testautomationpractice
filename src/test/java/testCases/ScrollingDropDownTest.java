@@ -7,10 +7,11 @@ import testBase.BaseClass;
 
 public class ScrollingDropDownTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyScrollingDropDown() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyScrollingDropDown started.");
         ScrollingDropDownPage sd = new ScrollingDropDownPage(driver);
         String header = sd.getTextHeader();
         // System.out.println(header);
@@ -19,5 +20,6 @@ public class ScrollingDropDownTest extends BaseClass {
         sd.scrollingDropDown();
 
         softAssert.assertAll();
+        logger.info("verifyScrollingDropDown finished.");
     }
 }

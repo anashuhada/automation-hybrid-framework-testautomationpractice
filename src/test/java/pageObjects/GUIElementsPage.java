@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -240,6 +241,23 @@ public class GUIElementsPage extends BasePage {
         if(!flag) {
             System.out.println("No duplicates found in the list box.");
         }
+    }
+
+    public void selectMultipleOption() {
+        Select sel = new Select(selectColor);
+        List<WebElement> colors = sel.getOptions();
+
+        act.keyDown(Keys.CONTROL); // hold ctrl key
+
+        for (WebElement color : colors) {
+            if (color.getText().equals("Blue") || color.getText().equals("Yellow")) {
+                color.click(); // click the option first
+            }
+        }
+
+        act.keyUp(Keys.CONTROL).perform(); // release  ctrl key
+
+        System.out.println("Blue and Yellow are selected.");
     }
 
     public void setDatePicker1(String date, String month, String year) throws InterruptedException {

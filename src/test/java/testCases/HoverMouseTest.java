@@ -7,10 +7,11 @@ import testBase.BaseClass;
 
 public class HoverMouseTest extends BaseClass {
 
-    @Test
+    @Test(groups = "Master")
     public void verifyHoverMouse() {
         SoftAssert softAssert = new SoftAssert();
 
+        logger.info("verifyHoverMouse started.");
         HoverMousePage hm = new HoverMousePage(driver);
         String header = hm.getTextHeader();
         // System.out.println(header);
@@ -31,5 +32,6 @@ public class HoverMouseTest extends BaseClass {
         hm.hoverMouse();
 
         softAssert.assertAll();
+        logger.info("verifyHoverMouse finished.");
     }
 }

@@ -137,6 +137,37 @@ public class AlertsAndPopupsPage extends BasePage {
 
         driver.switchTo().window(winParent);
         System.out.println("Switch back to parent window.");
-
     }
+
+//    public void newWindow() {
+//        wait.until(ExpectedConditions.visibilityOf(buttonNewWindow));
+//        wait.until(ExpectedConditions.elementToBeClickable(buttonNewWindow)).click();
+//
+//        // Store the parent window handle
+//        String winParent = driver.getWindowHandle();
+//
+//        // Wait for the new window to open and then get all window handles
+//        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
+//        Set<String> windowHandles = driver.getWindowHandles();
+//
+//        // Identify the popup window handle
+//        for (String handle : windowHandles) {
+//            if (!handle.equals(winParent)) {
+//                driver.switchTo().window(handle);
+//                System.out.println("This is the popup window: " + driver.getTitle());
+//
+//                // Close the popup window
+//                driver.close();
+//                System.out.println("Popup window closed.");
+//
+//                // Break after closing to avoid re-switching accidentally
+//                break;
+//            }
+//        }
+//
+//        // Switch back to the parent window
+//        driver.switchTo().window(winParent);
+//        System.out.println("Switched back to the parent window: " + driver.getTitle());
+//    }
+
 }

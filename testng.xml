@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="5">
+    <groups>
+        <run>
+            <include name="Master"/>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+    <test name="Test">
+        <parameter name="os" value="mac"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="testCases.AlertsAndPopupsTest"/>
+            <class name="testCases.DoubleClickTest"/>
+            <class name="testCases.DragAndDropTest"/>
+            <class name="testCases.DynamicButtonTest"/>
+            <class name="testCases.DynamicWebTableTest"/>
+            <class name="testCases.GUIElementsTest"/>
+            <class name="testCases.HiddenElementsAndAJAXTest"/>
+            <class name="testCases.HoverMouseTest"/>
+            <class name="testCases.LabelsAndLinksTest"/>
+            <class name="testCases.PaginationWebTableTest"/>
+            <class name="testCases.SVGElementsTest"/>
+            <class name="testCases.ScrollingDropDownTest"/>
+            <class name="testCases.ShadowDOMTest"/>
+            <class name="testCases.SliderTest"/>
+            <class name="testCases.StaticWebTableTest"/>
+            <class name="testCases.TabsTest"/>
+            <class name="testCases.UploadFilesTest"/>
+            <class name="testCases.VisitorsTest"/>
+        </classes>
+    </test>
+</suite>
